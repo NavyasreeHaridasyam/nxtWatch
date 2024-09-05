@@ -1,0 +1,21 @@
+.link-item {
+  text-decoration: none;
+  width: 30%;
+  margin: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .link-item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .link-item {
+    width: 32%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 766px) {
+  .link-item {
+    width: 32%;
+  }
+}

@@ -1,0 +1,16 @@
+.react-player {
+  height: 90vh;
+}
+
+@media screen and (max-width: 576px) {
+  .react-player {
+    width: 100% !important;
+    height: 25vh !important ;
+  }
+}
+@media screen and (min-width: 577px) {
+  .react-player {
+    width: 100% !important;
+    height: 450px !important;
+  }
+}
